@@ -1,0 +1,80 @@
+Casos de Uso:
+
+Iniciar Sesión (CU-01):
+
+Tipo de Importancia: Primario
+Actor: Profesor o Administrador.
+Descripción: Iniciar sesión en la aplicación con un nombre de usuario y contraseña.
+Precondiciones: La aplicación está instalada y se tiene una cuenta registrada.
+Flujo Principal:
+El usuario ingresa su nombre de usuario y contraseña.
+La aplicación verifica las credenciales.
+Si las credenciales son correctas, el usuario inicia sesión.
+Flujo Alternativo (CU-01a - Credenciales Incorrectas):
+En el paso 3, si las credenciales son incorrectas, la aplicación muestra un mensaje de error y devuelve al usuario al inicio de sesión.
+Lectura de NFC (CU-02):
+
+Tipo de Importancia: Primario
+Actor: Profesor.
+Descripción: Leer la tarjeta del metro de la CDMX a través de la función NFC del dispositivo.
+Precondiciones: El profesor ha iniciado sesión en la aplicación.
+Flujo Principal:
+El profesor selecciona la opción de "Lectura de NFC" en la aplicación.
+Acerca la tarjeta del metro al dispositivo para que se realice la lectura.
+La aplicación registra la tarjeta y asocia al alumno correspondiente.
+Registro de Asistencia en Tiempo Real (CU-03):
+
+Tipo de Importancia: Primario
+Actor: Profesor.
+Descripción: Registrar la asistencia de los alumnos en tiempo real.
+Precondiciones: El profesor ha iniciado sesión en la aplicación y ha realizado la lectura de la tarjeta del alumno.
+Flujo Principal:
+El profesor selecciona la opción "Registro de Asistencia".
+La aplicación marca al alumno como presente en la base de datos.
+Gestión de Grupos (CU-04):
+
+Tipo de Importancia: Secundario
+Actor: Administrador.
+Descripción: Agregar, dar de baja o modificar grupos.
+Precondiciones: El administrador ha iniciado sesión en la aplicación.
+Flujo Principal:
+El administrador selecciona la opción "Gestión de Grupos".
+Puede realizar las siguientes acciones: crear un nuevo grupo, dar de baja un grupo existente o modificar la información de un grupo.
+Gestión de Alumnos (CU-05):
+
+Tipo de Importancia: Secundario
+Actor: Administrador.
+Descripción: Agregar, dar de baja o modificar alumnos.
+Precondiciones: El administrador ha iniciado sesión en la aplicación.
+Flujo Principal:
+El administrador selecciona la opción "Gestión de Alumnos".
+Puede realizar las siguientes acciones: agregar un nuevo alumno, dar de baja un alumno existente o modificar la información de un alumno.
+Gestión de Tarjetas (CU-06):
+
+Tipo de Importancia: Terciario
+Actor: Administrador.
+Descripción: Agregar, dar de baja o modificar tarjetas del metro.
+Precondiciones: El administrador ha iniciado sesión en la aplicación.
+Flujo Principal:
+El administrador selecciona la opción "Gestión de Tarjetas".
+Puede realizar las siguientes acciones: agregar una nueva tarjeta, dar de baja una tarjeta existente o modificar la información de una tarjeta.
+Registro de Informes por Período de Tiempo (CU-07):
+
+Tipo de Importancia: Secundario
+Actor: Profesor o Administrador.
+Descripción: Generar un informe de asistencia de los alumnos en un período de tiempo específico.
+Precondiciones: El usuario ha iniciado sesión en la aplicación.
+Flujo Principal:
+El usuario selecciona la opción "Registro de Informes".
+Define el período de tiempo para el informe (por ejemplo, una semana o un mes).
+La aplicación genera un informe de asistencia durante ese período.
+Exportar Informe (CU-08):
+
+Tipo de Importancia: Terciario
+Actor: Profesor o Administrador.
+Descripción: Exportar el informe de asistencia a un formato compatible, como PDF o Excel.
+Precondiciones: Se ha generado un informe previamente.
+Flujo Principal:
+El usuario selecciona la opción "Exportar Informe".
+Selecciona el formato de exportación (PDF, Excel, etc.).
+La aplicación genera el archivo exportado y lo hace disponible para su descarga.
