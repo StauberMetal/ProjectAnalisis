@@ -2,18 +2,31 @@ Casos de Utilización para el Sistema de Registro de Asistencia con Tarjetas del
 
 
 UC-001: Registro Automático de Asistencia:
+
 Importancia: Primario
+
 Actor: Usuario
+
 Descripción: Registrar automáticamente la asistencia al presentar la tarjeta del metro.
+
 Precondiciones: El usuario tiene una tarjeta del metro válida.
+
 Flujo Principal:
+
 Presentación de la tarjeta del metro al lector.
+
 Verificación de la validez y registro de la entrada del usuario.
+
 Confirmación visual o auditiva al usuario.
+
 Flujos Alternativos:
+
 Tarjeta Inválida: Mensaje de error si la tarjeta no es válida o está vencida.
+
 Registro de Salida Automático: Al salir, la presentación de la tarjeta registra automáticamente la salida.
+
 Postcondiciones:
+
 Registro de la entrada del usuario.
 
 UC-002: Consulta de Asistencia por Usuario:
