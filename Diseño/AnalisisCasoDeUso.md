@@ -9,31 +9,54 @@ Usuario: Profesor.
 Descripción: La aplicación captura automáticamente la presencia de los estudiantes mediante el escaneo de tarjetas de metro usando la tecnología NFC. Antes de iniciar, se requiere que el profesor haya iniciado sesión en la aplicación.
 
 Flujo Principal:
-El profesor selecciona la opción "Registro de Asistencia".
-Utiliza el lector NFC del dispositivo para escanear las tarjetas de metro de los estudiantes.
-La aplicación verifica la validez de las tarjetas y registra la asistencia en tiempo real.
-Se proporciona una confirmación visual o auditiva para informar al profesor sobre el éxito del registro.
+
+1. El profesor selecciona la opción "Registro de Asistencia".
+
+2. Utiliza el lector NFC del dispositivo para escanear las tarjetas de metro de los estudiantes.
+
+3. La aplicación verifica la validez de las tarjetas y registra la asistencia en tiempo real.
+
+4. Se proporciona una confirmación visual o auditiva para informar al profesor sobre el éxito del registro.
+
 Subflujo - Notificación de Cambios en la Asistencia (Secundario):
+
 a. Se detectan alteraciones sustanciales en la asistencia.
+
 b. Se generan notificaciones automáticas para informar a los profesores afectados.
+
 c. Los profesores reciben información sobre los cambios en tiempo real.
+
 Subflujo - Gestión de Errores de Tarjeta (Secundario):
+
 a. Durante el proceso de registro de asistencia, se identifican tarjetas inválidas o problemas de lectura.
+
 b. Se generan mensajes de error o notificaciones para informar al profesor.
+
 c. La asistencia se registra con éxito solo después de resolver los problemas.
+
 
 UC-002: Administración de Grupos (Primario):
 
 Tipo: Proceso Administrativo
+
 Usuario: Profesor o Administrador.
+
 Descripción: Este proceso permite realizar cambios en la composición de grupos, como altas, bajas o modificaciones en los estudiantes. La condición previa es que el profesor o el administrador haya iniciado sesión en la aplicación.
+
 Flujo Principal:
-El Profesor/Administrador accede a la sección "Administración de Grupos".
-Realiza los ajustes necesarios en la composición de los grupos de estudiantes.
-Se confirma y actualiza inmediatamente la información.
+
+1. El Profesor/Administrador accede a la sección "Administración de Grupos".
+
+2. Realiza los ajustes necesarios en la composición de los grupos de estudiantes.
+
+3. Se confirma y actualiza inmediatamente la información.
+
 Subflujo - Notificación de Cambios en la Composición de Grupos (Secundario):
+
 a. Se detectan cambios en la composición de grupos.
+
 b. Se generan notificaciones automáticas para informar a los profesores afectados.
+
 c. Los profesores son informados sobre los cambios en tiempo real.
 
 UC-003: Administración de Alumnos (Primario):
