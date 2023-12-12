@@ -16,4 +16,22 @@ Ingreso Manual: Proceso excepcional que permite al administrador introducir deta
 
 Verificación de Estado: Acción que posibilita a los usuarios verificar el estado actual de su tarjeta del metro, incluyendo información sobre bloqueos.
 
-Comunicación de Mantenimiento: Acción de informar a usuarios y administradores sobre el mantenimiento programado del sistema, facilitando una gestión eficiente durante esos períodos.  
+Comunicación de Mantenimiento: Acción de informar a usuarios y administradores sobre el mantenimiento programado del sistema, facilitando una gestión eficiente durante esos períodos. 
+
+Orquestador: Es el encargado de coordinar la interacción entre objetos para lograr un objetivo amplio en el sistema.
+Usuario: Persona que interactúa con el sistema.
+
+Request: Es la solicitud que un cliente envía al sistema para obtener información o realizar una acción.
+
+Response: Es la información que se envía de vuelta como respuesta a una solicitud (request) realizada por un cliente.
+
+Repositories: Lugar centralizado donde se almacenan y gestionan datos, archivos o información.
+
+Data Source: Lugar desde el cual se recopilan, almacenan o recuperan datos como base de datos, archivos, servicios web, etc.
+
+LibNFC: Biblioteca de software de código abierto que proporciona funciones y herramientas para trabajar con tecnologías de comunicación de campo cercano (NFC). 
+
+APK: Son las siglas de Android Package, el cual es el formato de archivo que se utiliza en el sistema operativo Android para la distribución e instalación de apps.
+
+MVC: Diseño arquitectónico “Modelo-Vista-Controlador”, el cual separa las responsabilidades permitiendo que cada componente realice su función específica sin interferencias innecesarias.
+
