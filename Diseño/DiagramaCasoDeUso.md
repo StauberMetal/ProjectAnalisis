@@ -1,5 +1,2 @@
-![diagrama](https://github.com/StauberMetal/ProjectAnalisis/assets/149842504/58dc97c8-0481-41a5-8914-cb6eca305a6e)
-![usuario](https://github.com/StauberMetal/ProjectAnalisis/assets/149842504/017f9277-4b83-40e8-920d-991180803566)
-![Administrador](https://github.com/StauberMetal/ProjectAnalisis/assets/149842504/487eb672-30e5-44e5-a572-3f4a63288409)
-![sistema](https://github.com/StauberMetal/ProjectAnalisis/assets/149842504/6a439020-d28f-4eab-8676-cd9606a822c1)
-![ad](https://github.com/StauberMetal/ProjectAnalisis/assets/149842504/50e90564-273b-4aec-bdca-fd171b64275e)
+
+![final](https://github.com/StauberMetal/ProjectAnalisis/assets/149842504/1e117739-19a4-4bef-bd4b-89c5efbbee63)
