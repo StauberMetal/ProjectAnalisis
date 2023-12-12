@@ -1,4 +1,5 @@
 Automatización: Proceso de realizar automáticamente el registro de asistencia al presentar una tarjeta del metro válida.
+
 Verificación: Acción realizada por un administrador para revisar la asistencia de un usuario en un rango de fechas determinado.
 Personalización: Proceso que permite al administrador ajustar parámetros como horarios y días feriados para la asistencia.
 Análisis: Acción de crear informes estadísticos para evaluar patrones y tendencias en la asistencia de manera sistemática.
