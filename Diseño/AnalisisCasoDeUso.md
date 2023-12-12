@@ -5,7 +5,9 @@ UC-001: Registro Automático de Asistencia (Primario):
 Tipo: Proceso Transaccional
 
 Usuario: Profesor.
+
 Descripción: La aplicación captura automáticamente la presencia de los estudiantes mediante el escaneo de tarjetas de metro usando la tecnología NFC. Antes de iniciar, se requiere que el profesor haya iniciado sesión en la aplicación.
+
 Flujo Principal:
 El profesor selecciona la opción "Registro de Asistencia".
 Utiliza el lector NFC del dispositivo para escanear las tarjetas de metro de los estudiantes.
