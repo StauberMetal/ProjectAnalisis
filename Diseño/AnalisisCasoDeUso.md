@@ -1,6 +1,7 @@
 Casos de Utilización para el Sistema de Registro de Asistencia con Tarjetas del Metro:
 
 
+
 UC-001: Registro Automático de Asistencia:
 
 Importancia: Primario
