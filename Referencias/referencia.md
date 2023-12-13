@@ -14,3 +14,7 @@ Actualízatec. (2023, 8 julio). ¿Qué es un APK? i glosario de mobile & App mar
 KeepCoding, R. (2023, 25 octubre). Objetos Request y Response de la librería Requests. KeepCoding Bootcamps. https://keepcoding.io/blog/request-y-response-de-la-libreria-requests/
 
 IBM. (2023, 1 septiembre). Repositories and data sources. IBM Documentation. https://www.ibm.com/docs/en/qmf/12.2.0?topic=ad-repositories-data-sources
+
+¿Qué es un diagrama de flujo de datos y cómo crear uno? (2022, May 31). Venngage Blog. https://es.venngage.com/blog/diagrama-de-flujo-de-datos/
+
+Bell, D. (2004, September 14). The class diagram. IBM Developer. https://developer.ibm.com/articles/the-class-diagram/
