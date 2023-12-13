@@ -35,3 +35,4 @@ APK: Son las siglas de Android Package, el cual es el formato de archivo que se 
 
 MVC: Diseño arquitectónico “Modelo-Vista-Controlador”, el cual separa las responsabilidades permitiendo que cada componente realice su función específica sin interferencias innecesarias.
 
+Base de Datos (BD): Almacén de datos utilizado por la aplicación para almacenar información sobre profesores, administradores, estudiantes y registros de asistencia.
